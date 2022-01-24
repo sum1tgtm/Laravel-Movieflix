@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
+body {
+    font-family: "Neucha", cursive;
+    background-image: url("/images/bg000.jpg");
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.movies-header {
+    width: 100vw;
+    display: inline-flex;
+    align-items: center;
+    background-color: #292b2c;;
+    color: white;
+    font-weight: bolder;
+    height: 50px;
+}
+
+.m-items {
+    padding-top: 3px;
+    vertical-align: middle;
+    max-height: 50px;
+    margin: auto;
+}
+.movieflix-title {
+    color: red;
+}
+
+.movie {
+    margin: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 250px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.movie-details {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    flex-direction: row;
+
+}
+.movie-title {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.5em 1.2em;
+    cursor: pointer;
+
+    border: none;
+    border-radius: 0.3em;
+    color: white;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.add-movie{
+    color: rgb(15, 201, 15);
+}
+
+.page-title{
+    color: rgba(53, 53, 243, 0.959);
+}
+.btns{
+    display: inline-flex;
+}
+
+.edit-btn{
+    background-color: rgb(14, 214, 14);
+}
+
+.delete-btn{
+    background-color:rgba(240, 6, 6, 0.945) ;
+}
+
+.watch-btn{
+    background-color: rgb(30, 79, 240);
+}
+

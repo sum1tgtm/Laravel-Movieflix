@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+
+body {
+    font-family: "Neucha", cursive;
+    background-image: url("/images/bg000.jpg");
+    background-blend-mode: multiply;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.movies-header {
+    width: 100vw;
+    display: inline-flex;
+    align-items: center;
+    background-color:  #292b2c; /*  rgb(21, 34, 56); */
+    color: white;
+    font-weight: bolder;
+    height: 50px;
+}
+
+.m-items {
+    padding-top: 3px;
+    vertical-align: middle;
+    max-height: 50px;
+    margin: auto;
+}
+.movieflix-title {
+    /* color: red; */
+}
+
+.movie {
+    margin-top: 30px;
+    max-width: 250px;
+}
+
+.movie-img {
+    height: 250px;
+    width: 250px;
+}
+
+.movie-details {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.movie-title {
+
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.87);
+
+}
+.btn {
+    vertical-align: middle;
+    padding: 0.5em 1.35em;
+    cursor: pointer;
+    background-color: rgba(223, 11, 11, 0.897);
+    border: none;
+    border-radius: 0.3em;
+    color: white;
+}
+
+.movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn:hover{
+    background-color: rgb(219, 74, 74);
+}

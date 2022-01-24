@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+body{
+    background-image: url("/images/bg.jpg");
+    background-size: cover;
+    font-family: 'Neucha', cursive;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+
+.main-header h3{
+    margin: 0.2rem 1rem ;
+    color: red ;
+    font-size: 2.1rem;
+
+}
+
+.header-div{
+    display: flex;
+    text-align: center;
+}
+
+.header-nav{
+    margin: 0;
+    flex-grow: 1;
+}
+
+.header-div li{
+    display: inline;
+}
+
+.header-div ul{
+    text-align: end;
+    flex-grow: 1;
+    margin: .2rem 1rem;
+}
+
+.btn{
+    font-family: 'Neucha', cursive;
+    width: 7rem;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    margin-right: 1rem;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn :last-child{
+    margin-right: 0px;
+}
+
+.login-btn{
+    background-color: rgb(229, 9, 20);
+}
+
+.register-btn{
+    background-color:rgb(107, 107, 187);
+}
+
+
+.login-btn:hover{
+    background-color: rgb(228, 53, 53, 0.5);
+}
+
+.register-btn:hover{
+    background-color:rgb(107, 107, 187, 0.5);
+}
+
+
+section{
+    color: white;
+    margin-top: 25vh;
+    text-align: center;
+}
+
+.large{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.small{
+    margin-top: 1.3rem;
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+
+.page-title{
+    text-decoration: none;
+    color: red;
+}
